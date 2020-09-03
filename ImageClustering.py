@@ -159,7 +159,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-#   Using dimension reduction:  Accuracy= 0.51
-#   Using dim reduc TSVD:
-#   Using dim reduc PCA:
