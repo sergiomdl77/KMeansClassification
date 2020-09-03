@@ -1,12 +1,6 @@
 from scipy import spatial
 import re
-import numpy as np
-from scipy.sparse import csr_matrix
-from sklearn.decomposition import TruncatedSVD
-from sklearn.naive_bayes import BernoulliNB
-from sklearn.tree import DecisionTreeClassifier
-import time
-from scipy.spatial import distance
+
 
 pattern = re.compile('[0-9]+')
 IMG_DIMS_NUM = 784
@@ -158,4 +152,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Small error with Numpy arrays
 
